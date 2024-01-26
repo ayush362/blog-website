@@ -2,20 +2,8 @@ import { Navbar } from "@/components/navbar";
 import React, { useEffect, useState } from "react";
 import Link from "next/link";
 
-const blog = () => {
-  const [blogs, setBlogs] = useState([]);
-  useEffect(() => {
-    console.log("useEffect is running");
-    fetch("http://localhost:3000/api/blogs")
-      .then((response) => response.json())
-      .then((parsed) => {
-        console.log(parsed);
-        setBlogs(parsed);
-      })
-      .catch((error) => {
-        console.error("Error fetching data:", error);
-      });
-  }, []); // <-- Added an empty dependency array to make it run only once on mount
+const blog = (props) => {
+  const [blogs, setBlogs] = useState(props.allBlogs);
 
   return (
     <section className="container mx-auto flex flex-col gap-10 mt-10">
@@ -34,5 +22,13 @@ const blog = () => {
     </section>
   );
 };
+
+export async function getServerSideProps(context) {
+  let data = await fetch("http://localhost:3000/api/blogs");
+  let allBlogs = await data.json();
+  return {
+    props: { allBlogs },
+  };
+}
 
 export default blog;

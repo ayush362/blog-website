@@ -18,7 +18,7 @@ export const Navbar = ({ style }) => {
             <Link href="/blog">Blog</Link>
           </li>
           <li>
-            <Link href="/">Contact</Link>
+            <Link href="/contact">Contact</Link>
           </li>
         </ul>
       </div>
