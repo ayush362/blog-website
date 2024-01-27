@@ -1,0 +1,50 @@
+{
+  "slug": "rohit",
+  "image": "/rohit2.jpeg",
+  "fullName": "Rohit Sharma",
+  "age": 35,
+  "cityBorn": "Bansod, Nagpur",
+  "matchesPlayed": {
+    "total": 224,
+    "odi": 227,
+    "t20": 111,
+    "ipl": 200
+  },
+  "runsScored": {
+    "total": 9205,
+    "odi": 9205,
+    "t20": 2864,
+    "ipl": 5480
+  },
+  "ballsFaced": {
+    "odi": 10288,
+    "t20": 2171,
+    "ipl": 4114
+  },
+  "careerStats": {
+    "battingAverage": 49.27,
+    "strikeRate": 88.92,
+    "centuries": {
+      "total": 34,
+      "odi": 29,
+      "t20": 4,
+      "ipl": 1
+    },
+    "fifties": {
+      "total": 104,
+      "odi": 43,
+      "t20": 21,
+      "ipl": 40
+    },
+    "highestScore": {
+      "total": 264,
+      "odi": 264,
+      "t20": 118,
+      "ipl": 109
+    }
+  },
+  "battingStyle": "Right-handed",
+  "odiDebutYear": 2007,
+  "t20DebutYear": 2007,
+  "iplDebutYear": 2008
+}

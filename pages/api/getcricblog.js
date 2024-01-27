@@ -2,11 +2,10 @@
 import * as fs from "fs";
 
 export default function handler(req, res) {
-  fs.readFile(`blogdata/${req.query.slug}.json`, "utf-8", (err, data) => {
+  fs.readFile(`playersdata/${req.query.slug}.json`, "utf-8", (err, data) => {
     if (err) {
       res.status(500).json({ error: "some error occured" });
     }
-    console.log(req.query.slug);
     res.status(200).json( JSON.parse(data) );
   });
 }

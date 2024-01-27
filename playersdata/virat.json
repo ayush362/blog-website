@@ -1,0 +1,50 @@
+{
+    "slug": "virat",
+    "fullName": "Virat Kohli",
+    "image":"/virat.webp",  
+    "age": 33,
+    "cityBorn": "Delhi",
+    "matchesPlayed": {
+      "total": 254,
+      "odi": 254,
+      "t20": 90,
+      "ipl": 192
+    },
+    "runsScored": {
+      "total": 12169,
+      "odi": 12169,
+      "t20": 2928,
+      "ipl": 5878
+    },
+    "ballsFaced": {
+      "odi": 12912,
+      "t20": 2291,
+      "ipl": 4392
+    },
+    "careerStats": {
+      "battingAverage": 59.07,
+      "strikeRate": 93.17,
+      "centuries": {
+        "total": 70,
+        "odi": 43,
+        "t20": 0,
+        "ipl": 5
+      },
+      "fifties": {
+        "total": 55,
+        "odi": 62,
+        "t20": 24,
+        "ipl": 39
+      },
+      "highestScore": {
+        "total": 183,
+        "odi": 183,
+        "t20": 94,
+        "ipl": 113
+      }
+    },
+    "battingStyle": "Right-handed",
+    "odiDebutYear": 2008,
+    "t20DebutYear": 2010,
+    "iplDebutYear": 2008
+  }

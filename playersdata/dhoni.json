@@ -1,0 +1,51 @@
+{
+    "slug": "dhoni",
+    "image":"/dhoni3.webp",
+    "fullName": "Mahendra Singh Dhoni",
+    "age": 40,
+    "cityBorn": "Ranchi",
+    "matchesPlayed": {
+      "total": 538,
+      "odi": 350,
+      "t20": 98,
+      "ipl": 204
+    },
+    "runsScored": {
+      "total": 10773,
+      "odi": 10773,
+      "t20": 1617,
+      "ipl": 4632
+    },
+    "ballsFaced": {
+      "odi": 12726,
+      "t20": 1238,
+      "ipl": 3222
+    },
+    "careerStats": {
+      "battingAverage": 50.57,
+      "strikeRate": 87.56,
+      "centuries": {
+        "total": 16,
+        "odi": 10,
+        "t20": 0,
+        "ipl": 0
+      },
+      "fifties": {
+        "total": 73,
+        "odi": 73,
+        "t20": 2,
+        "ipl": 23
+      },
+      "highestScore": {
+        "total": 183,
+        "odi": 183,
+        "t20": 56,
+        "ipl": 70
+      }
+    },
+    "battingStyle": "Right-handed",
+    "odiDebutYear": 2004,
+    "t20DebutYear": 2006,
+    "iplDebutYear": 2008
+  }
+  

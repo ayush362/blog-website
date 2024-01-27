@@ -1,0 +1,50 @@
+{
+    "slug": "shikhar",
+    "fullName": "Shikhar Dhawan",
+    "image":"/shikhar.jpeg",
+    "age": 36,
+    "cityBorn": "Delhi",
+    "matchesPlayed": {
+      "total": 145,
+      "odi": 142,
+      "t20": 65,
+      "ipl": 176
+    },
+    "runsScored": {
+      "total": 5434,
+      "odi": 5977,
+      "t20": 1669,
+      "ipl": 5577
+    },
+    "ballsFaced": {
+      "odi": 6042,
+      "t20": 1355,
+      "ipl": 4215
+    },
+    "careerStats": {
+      "battingAverage": 45.02,
+      "strikeRate": 93.52,
+      "centuries": {
+        "total": 17,
+        "odi": 17,
+        "t20": 0,
+        "ipl": 0
+      },
+      "fifties": {
+        "total": 31,
+        "odi": 29,
+        "t20": 10,
+        "ipl": 41
+      },
+      "highestScore": {
+        "total": 143,
+        "odi": 143,
+        "t20": 92,
+        "ipl": 97
+      }
+    },
+    "battingStyle": "Left-handed",
+    "odiDebutYear": 2010,
+    "t20DebutYear": 2011,
+    "iplDebutYear": 2008
+  }

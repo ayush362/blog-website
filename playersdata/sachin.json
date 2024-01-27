@@ -1,0 +1,50 @@
+{
+  "slug": "sachin",
+  "fullName": "Sachin Tendulkar",
+  "image": "/sachin.webp",
+  "age": 48,
+  "cityBorn": "Mumbai",
+  "matchesPlayed": {
+    "total": 664,
+    "odi": 463,
+    "t20": 1,
+    "ipl": 78
+  },
+  "runsScored": {
+    "total": 34357,
+    "odi": 18426,
+    "t20": 10,
+    "ipl": 2334
+  },
+  "ballsFaced": {
+    "odi": 21367,
+    "t20": 12,
+    "ipl": 2009
+  },
+  "careerStats": {
+    "battingAverage": 48.52,
+    "strikeRate": 86.23,
+    "centuries": {
+      "total": 100,
+      "odi": 49,
+      "t20": 0,
+      "ipl": 1
+    },
+    "fifties": {
+      "total": 164,
+      "odi": 96,
+      "t20": 0,
+      "ipl": 16
+    },
+    "highestScore": {
+      "total": 200,
+      "odi": 200,
+      "t20": 10,
+      "ipl": 100
+    }
+  },
+  "battingStyle": "Right-handed",
+  "odiDebutYear": 1989,
+  "t20DebutYear": 2006,
+  "iplDebutYear": 2008
+}
